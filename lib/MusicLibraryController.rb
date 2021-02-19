@@ -30,7 +30,6 @@ class MusicLibraryController
       when 'play song'
         play_song
       end
-
       input=gets 
     end
   end

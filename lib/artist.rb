@@ -21,7 +21,7 @@ class Artist
   end
  
   def self.create(name)
-    #Artist.new(name).save
+    #Artist.new(name).save #since this is class method this will create nested array
     artist=Artist.new(name)
     artist.save
     artist
